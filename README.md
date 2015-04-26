@@ -4,7 +4,8 @@ author: "Daniel Quan"
 date: "Saturday, April 25, 2015"
 output: html_document
 ---
-1. First part of script downloads and unzips the required data files
+1. First part of script downloads and unzips the required data files using the url given on the course project description.
+URL = https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 temp = tempfile()
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", temp)
